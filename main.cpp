@@ -6,26 +6,26 @@
 
 using namespace std;
 char plansza[3][3]{ ' ',' ',' ',	' ',' ',' ',	' ',' ',' ', };	//|zmienne globalne i funkcje|
-int height, width, j = -1, l = 0;									// j - kolumna, l - wiersz
-void Move();														//ruch gracza
-void DrawMap();														//funkcja rysuje mape
-void ChcekPosition();												//funkcja sprawdzajaca pozycje kursora
-void GameState();													//funkcja sprawdzajaca wynik gry
-bool Round();														//funkcja pokazujaca ktory gracz ma aktualnie swoja ture
-bool CheckArray();													//funcka sprawdza czy komorka tablicy jest pusta
-void dev();															//na czas testow gry
-void Restart();														//funkcja konczy lub restartuje gre
-void MapRestart();													//Funkcja czyszczaca mape
-int x = 4, y = 2;													//pozycja kursora na mapie
-int m = 0, n = 0;													//zmienne odpowiadajce j i l na potrzeby dopisywania do tablicy
-int PlayersTurn = 0;												//zmienna mowiaca o tym czyja jest tura
-char Winner;														//zmienna mowiaca o tym kto wygral
-void Menu();														//Menu gry
-void MenuTile();													//Szkielet Menu
-void StartGame();													//funkcja zaczynajaca gre
-int GameMode = 0;													//Funkcja reprezentujaca tryb gry - 1 = klasyk, 2 = misere
-void CheckGameMode();												//sprawdzanie trybu gry
-char KoniecGry;														//...
+int height, width, j = -1, l = 0;									
+void Move();														
+void DrawMap();													
+void ChcekPosition();												
+void GameState();													
+bool Round();														
+bool CheckArray();													
+void dev();															
+void Restart();														
+void MapRestart();													
+int x = 4, y = 2;													
+int m = 0, n = 0;													
+int PlayersTurn = 0;												
+char Winner;														
+void Menu();														
+void MenuTile();													
+void StartGame();													
+int GameMode = 0;													
+void CheckGameMode();												
+char KoniecGry;														
 //
 ////////////////////////////////////////////////
 //
